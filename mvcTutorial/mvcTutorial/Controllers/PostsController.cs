@@ -10,7 +10,7 @@ namespace mvcTutorial.Controllers
     {
         public ActionResult Index()
         {
-            return Content("this is a test");
+            return View();
         }
     }
 }

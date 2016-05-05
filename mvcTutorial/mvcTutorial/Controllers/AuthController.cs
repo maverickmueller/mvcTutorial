@@ -10,7 +10,7 @@ namespace mvcTutorial.Controllers
     {
         public ActionResult Login()
         {
-            return Content("LOGINNNNNN");
+            return View();
         }
     }
 }
