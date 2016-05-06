@@ -29,5 +29,11 @@ namespace mvcTutorial.Controllers
                 return Redirect(returnUrl);
             return RedirectToRoute("home");
         }
+
+        public ActionResult Logout()
+        {
+            FormsAuthentication.SignOut();
+            return RedirectToRoute("home");
+        }
     }
 }
